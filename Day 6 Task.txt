@@ -1,0 +1,24 @@
+const personDetails = {
+    name: "Vikram",
+    age: 30,
+    city: "Chennai"
+  };
+
+  // for in 
+
+  for (const key in personDetails) {
+    console.log(key, personDetails[key]);
+  }
+
+//for of
+
+for (const key of Object.keys(personDetails)) {
+    console.log(key, personDetails[key]);
+  }
+  
+  //foreach
+  Object.keys(personDetails).forEach((key) => {
+    console.log(key, personDetails[key]);
+  });
+  
+
